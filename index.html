@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="fetchAPI.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Worker</title>
+</head>
+
+<body>
+  <header class="c-header">
+    <h1 class="c-header__page-title">DOM Update</h1>
+  </header>
+  <div class="background">
+    <div class="inputs__box">
+      Fecth JSON API:
+      <input name="fetch__api" type="text" />
+      <button onclick="fetchAPI()">Fetch</button>
+    </div>
+    <div id="api__data" name="api__data"></div>
+  </div>
+
+  <footer>
+    Some useful API links to try:
+    <ul>
+      <li>https://uselessfacts.jsph.pl/random.json</li>
+      <li>https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&&dim=0.10&api_key=DEMO_KEY</li>
+      <li>https://api.spacexdata.com/v4/launches/latest</li>
+    </ul>
+  </footer>
+</body>
+
+</html>
